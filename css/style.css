@@ -1,0 +1,200 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: rgb(76 122 221);
+    color: white;
+}
+
+.search-box {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    width:30%;
+    border-radius: 0.2rem;
+    padding: 2px 0px;
+}
+
+.nav-input-box {
+    margin-left: 1rem;
+    padding: 10px 5px;
+    width:20rem;
+    background-color: none;
+    border: 0;
+}
+
+.nav-input-box::placeholder {
+    font-size: 1rem;
+}
+
+.nav-input-box:focus ,.login:focus {
+    outline: none;
+}
+
+.search-icon {
+    height: 25px;
+    width: 25px;
+}
+
+.search-button {
+    margin-right:0.9rem;
+    background-color:white;
+    border: 0;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.login {
+    padding: 0.6rem 3rem;
+    border: 0;
+    border-radius: 0.2rem; 
+    font-size: 1.2rem;
+    background-color: white;
+    color: rgb(76 122 221);
+}
+
+.nav-items {
+    display: flex;
+    gap: 30px;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    color: white;
+  }
+
+.cart {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+li > a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem;
+}
+
+.cart-icon {
+    height: 20px;
+}
+
+h2 {
+    font-weight: 500;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin: 20px ;
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+
+}
+
+
+.menu-images {
+    height: 5rem;
+}
+
+.menu-item > a:hover {
+    color: rgb(76 122 221);
+}
+
+
+
+.hero-section {
+    /* width: 100%; */
+    margin: 20px 0;
+}
+
+.hero-image {
+    width: 100%;
+}
+
+
+.electronic-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.electronic-items {
+    display: flex;
+    flex-direction: column ;
+    justify-content: space-between;
+    align-items: center;
+    height:20rem;
+    padding: 2rem 0;
+}
+
+.electronic-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.air-india-adv {
+    height: 24rem;
+}
+
+.electronic-images {
+    width:80%;
+}
+
+.electronic-card-detail {
+    text-align: center;
+}
+
+.electronics {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.electronics-title {
+    font-size: 2rem;
+    text-align: center;
+    margin-top:7rem;
+}
+
+.electronics-button {
+    padding:0.7rem 2rem;
+    font-size: 1rem;
+    border: 0;
+    background-color:  rgb(76 122 221);
+    color: white;
+    border-radius: 0.1rem;
+}
