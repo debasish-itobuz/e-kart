@@ -16,7 +16,7 @@ function sliderDisplay(index) {
         flag = imageSlider.length - 1;
         index = imageSlider.length - 1;
     }
-    // imageSlider[index].style.display = "block";
+    imageSlider[index].style.display = "block";
 }
 
 sliderDisplay(flag);
