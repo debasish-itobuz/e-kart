@@ -1,136 +1,348 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>E Kart</title>
     <link rel="stylesheet" href="./css/style.css" />
-    <!-- <link rel="stylesheet" href="./bootstrap.min.css"> -->
-</head>
+  </head>
 
-<body>
+  <body>
     <section class="container">
-        <h2>E Kart</h2>
-        <div class="search-box">
-            <input type="text" placeholder="Search for products, brands and more.." class="nav-input-box" />
-            <button class="search-button">
-                <img src="./images/navbar/search-icon.svg" alt="search-icon" class="search-icon" />
-            </button>
+      <h2>E Kart</h2>
+      <div class="search-box">
+        <input
+          type="text"
+          placeholder="Search for products, brands and more.."
+          class="nav-input-box"
+        />
+        <button class="search-button">
+          <img
+            src="./images/navbar/search-icon.svg"
+            alt="search-icon"
+            class="search-icon"
+          />
+        </button>
+      </div>
+      <div class="navbar-container">
+        <button class="login">Login</button>
+        <ul class="nav-items">
+          <li><a href="#">Become a seller</a></li>
+          <li><a href="#">More</a></li>
+        </ul>
+        <div class="cart">
+          <img
+            src="./images/navbar/cart.svg"
+            alt="cart-icon"
+            class="cart-icon"
+          />
+          <h2>Cart</h2>
         </div>
-        <div class="navbar-container">
-            <button class="login">Login</button>
-            <ul class="nav-items">
-                <li><a href="#">Become a seller</a></li>
-                <li><a href="#">More</a></li>
-            </ul>
-            <div class="cart">
-                <img src="./images/navbar/cart.svg" alt="cart-icon" class="cart-icon" />
-                <h2>Cart</h2>
-            </div>
-        </div>
+      </div>
     </section>
 
     <section class="menu">
-        <div class="menu-item">
-            <img src="./images/menu/surf.webp" alt="surf" class="menu-images" />
-            <a href="#">Grocery</a>
+      <div class="menu-item">
+        <img src="./images/menu/surf.webp" alt="surf" class="menu-images" />
+        <a href="#">Grocery</a>
+      </div>
+      <div class="menu-item">
+        <img
+          src="./images/menu/mobiles.webp"
+          alt="mobile"
+          class="menu-images"
+        />
+        <a href="#">Mobile</a>
+      </div>
+      <div class="menu-item">
+        <img
+          src="./images/menu/fashion.webp"
+          alt="fashion"
+          class="menu-images"
+        />
+        <!-- <div class="group"></div> -->
+        <!-- <a href="#">Fashion</a>
+            <img src="./images/menu/down.svg" alt="down-arrow" class="down-arrow"> -->
+
+        <div class="select">
+          <select name="fashion" id="fashion" class="fashion">
+            <option>Fashion</option>
+            <option value="Men's Top Wear">Men's Top Wear</option>
+            <option value="Men's Bottom Wear">Men's Bottom Wear</option>
+            <option value="Women Ethnic">Women Ethnic</option>
+            <option value="Women Western">Women Western</option>
+            <option value="Men Footwear">Men Footwear</option>
+            <option value="Womens Footwear">Womens Footwear</option>
+            <option value="Watches and Accesories">
+              Watches and Accesories
+            </option>
+            <option value="Bags, Suitcases & Luggage">
+              Bags, Suitcases & Luggage
+            </option>
+            <option value="Kids">Kids</option>
+            <option value="Essentials">Essentials</option>
+            <option value="Winter">Winter</option>
+          </select>
         </div>
-        <div class="menu-item">
-            <img src="./images/menu/mobiles.webp" alt="surf" class="menu-images" />
-            <a href="#">Mobile</a>
-        </div>
-        <div class="menu-item">
-            <img src="./images/menu/fashion.webp" alt="surf" class="menu-images" />
-            <a href="#">Fashion</a>
-        </div>
-        <div class="menu-item">
-            <img src="./images/menu/electronics.webp" alt="surf" class="menu-images" />
-            <a href="#">Electronics</a>
-        </div>
-        <div class="menu-item">
-            <img src="./images/menu/furniture.webp" alt="surf" class="menu-images" />
-            <a href="#">Furniture</a>
-        </div>
-        <div class="menu-item">
-            <img src="./images/menu/appliances.webp" alt="surf" class="menu-images" />
-            <a href="#">Appliances</a>
-        </div>
-        <div class="menu-item">
-            <img src="./images/menu/travel.webp" alt="surf" class="menu-images" />
-            <a href="#">Travel</a>
-        </div>
-        <div class="menu-item">
-            <img src="./images/menu/toys.webp" alt="surf" class="menu-images" />
-            <a href="#">Toys</a>
-        </div>
-        <div class="menu-item">
-            <img src="./images/menu/bike.webp" alt="surf" class="menu-images" />
-            <a href="#">Two-Wheelers</a>
-        </div>
+      </div>
+      <div class="menu-item">
+        <img
+          src="./images/menu/electronics.webp"
+          alt="electronics"
+          class="menu-images"
+        />
+        <a href="#">Electronics</a>
+      </div>
+      <div class="menu-item">
+        <img
+          src="./images/menu/furniture.webp"
+          alt="furniture"
+          class="menu-images"
+        />
+        <a href="#">Furniture</a>
+      </div>
+      <div class="menu-item">
+        <img
+          src="./images/menu/appliances.webp"
+          alt="appliances"
+          class="menu-images"
+        />
+        <a href="#">Appliances</a>
+      </div>
+      <div class="menu-item">
+        <img src="./images/menu/travel.webp" alt="travel" class="menu-images" />
+        <a href="#">Travel</a>
+      </div>
+      <div class="menu-item">
+        <img src="./images/menu/toys.webp" alt="toys" class="menu-images" />
+        <a href="#">Toys</a>
+      </div>
+      <div class="menu-item">
+        <img
+          src="./images/menu/bike.webp"
+          alt="two-wheeler"
+          class="menu-images"
+        />
+        <a href="#">Two-Wheelers</a>
+      </div>
     </section>
 
     <section class="hero-section">
-        <div>
-            <img src="./images/hero/hero.webp" alt="hero-img" class="hero-image" />
+      <div class="slider-container">
+        <button class="left-arrow-button">
+          <img
+            src="./images/hero/left.svg"
+            alt="left-arrow"
+            class="left-arrow"
+          />
+        </button>
+
+        <div class="image-slider">
+          <img
+            src="./images/hero/hero.webp"
+            alt="hero-img"
+            class="hero-image"
+          />
         </div>
+        <div class="image-slider">
+          <img
+            src="./images/hero/chair.webp"
+            alt="hero-img"
+            class="hero-image"
+          />
+        </div>
+        <div class="image-slider">
+          <img
+            src="./images/hero//girl-image.webp"
+            alt="hero-img"
+            class="hero-image"
+          />
+        </div>
+        <div class="image-slider">
+          <img
+            src="./images/hero/plane.webp"
+            alt="hero-img"
+            class="hero-image"
+          />
+        </div>
+        <div class="image-slider">
+          <img
+            src="./images/hero/phone.webp"
+            alt="hero-img"
+            class="hero-image"
+          />
+        </div>
+
+        <button class="right-arrow-button">
+          <img
+            src="./images/hero/right.svg"
+            alt="right-arrow"
+            class="right-arrow"
+          />
+        </button>
+      </div>
     </section>
 
     <section class="electronic-section">
-        <div class="electronics">
-            <p class="electronics-title">Best of<br> Electronics</p>
-            <button class="electronics-button">View All</button>
-            <img src="./images/electronics/music.webp" alt="music-image" />
+      <div class="electronics">
+        <p class="electronics-title">
+          Best of<br />
+          Electronics
+        </p>
+        <button class="electronics-button">View All</button>
+        <img src="./images/electronics/music.webp" alt="music-image" />
+      </div>
+      <div class="electronic-list">
+        <div class="electronic-items">
+          <img
+            src="./images/electronics/printer.webp"
+            alt="surf"
+            class="electronic-images"
+          />
+          <div class="electronic-card-detail">
+            <p>Printers</p>
+            <p>From Rs.2336</p>
+            <p>Canon</p>
+          </div>
         </div>
-        <div class="electronic-list">
-            <div class="electronic-items">
-                <img src="./images/electronics/printer.webp" alt="surf" class="electronic-images" />
-                <div class="electronic-card-detail">
-                    <p>Printers</p>
-                    <p>From Rs.2336</p>
-                    <p>Canon</p>
-                </div>
-            </div>
-            <div class="electronic-items">
-                <img src="./images/electronics/monitors.webp" alt="surf" class="electronic-images" />
-                <div class="electronic-card-detail">
-                    <p>Monitors</p>
-                    <p>From Rs.7949</p>
-                    <p>Lenovo</p>
-                </div>
-            </div>
-            <div class="electronic-items">
-                <img src="./images/electronics/trimmer.webp" alt="surf" class="electronic-images" />
-                <div class="electronic-card-detail">
-                    <p>Trimmers</p>
-                    <p>From Rs.1948</p>
-                    <p>Philips</p>
-                </div>
-            </div>
-            <div class="electronic-items">
-                <img src="./images/electronics/camera.webp" alt="surf" class="electronic-images" />
-                <div class="electronic-card-detail">
-                    <p>Camera</p>
-                    <p>From Rs.4532</p>
-                    <p>Canon</p>
-                </div>
-            </div>
-            <div class="electronic-items">
-                <img src="./images/electronics/powerbank.webp" alt="surf" class="electronic-images" />
-                <div class="electronic-card-detail">
-                    <p>PowerBank</p>
-                    <p>From Rs.6549</p>
-                    <p>Mi</p>
-                </div>
-            </div>
+        <div class="electronic-items">
+          <img
+            src="./images/electronics/monitors.webp"
+            alt="surf"
+            class="electronic-images"
+          />
+          <div class="electronic-card-detail">
+            <p>Monitors</p>
+            <p>From Rs.7949</p>
+            <p>Lenovo</p>
+          </div>
         </div>
-        <div>
-            <img src="./images/electronics/air-india-add.webp" alt="air-india-adv" class="air-india-adv" />
+        <div class="electronic-items">
+          <img
+            src="./images/electronics/trimmer.webp"
+            alt="surf"
+            class="electronic-images"
+          />
+          <div class="electronic-card-detail">
+            <p>Trimmers</p>
+            <p>From Rs.1948</p>
+            <p>Philips</p>
+          </div>
         </div>
+        <div class="electronic-items">
+          <img
+            src="./images/electronics/camera.webp"
+            alt="surf"
+            class="electronic-images"
+          />
+          <div class="electronic-card-detail">
+            <p>Camera</p>
+            <p>From Rs.4532</p>
+            <p>Canon</p>
+          </div>
+        </div>
+        <div class="electronic-items">
+          <img
+            src="./images/electronics/powerbank.webp"
+            alt="surf"
+            class="electronic-images"
+          />
+          <div class="electronic-card-detail">
+            <p>PowerBank</p>
+            <p>From Rs.6549</p>
+            <p>Mi</p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <img
+          src="./images/electronics/air-india-add.webp"
+          alt="air-india-adv"
+          class="air-india-adv"
+        />
+      </div>
+    </section>
+    <section class="beauty-section">
+      <div class="beauty">
+        <p class="beauty-title">
+          Beauty, Food<br />
+          Toys & more
+        </p>
+        <button class="beauty-button">View All</button>
+        <img src="./images/beauty/toy.webp" alt="toy-image" />
+      </div>
+      <div class="beauty-list">
+        <div class="beauty-items">
+          <img
+            src="./images/beauty/helmet.webp"
+            alt="helmet"
+            class="beauty-images"
+          />
+          <div class="beauty-card-detail">
+            <p>Helmet</p>
+            <p>From Rs.699</p>
+            <p>Vega</p>
+          </div>
+        </div>
+        <div class="beauty-items">
+          <img src="./images/beauty/pen.webp" alt="pen" class="beauty-images" />
+          <div class="beauty-card-detail">
+            <p>Top Selling Pen</p>
+            <p>From Rs.49</p>
+            <p>Cello</p>
+          </div>
+        </div>
+        <div class="beauty-items">
+          <img
+            src="./images/beauty/cycle.webp"
+            alt="cycle"
+            class="beauty-images"
+          />
+          <div class="beauty-card-detail">
+            <p>Electric Cycle</p>
+            <p>Up to 40% off</p>
+            <p>Nuze, Motovolt</p>
+          </div>
+        </div>
+        <div class="beauty-items">
+          <img
+            src="./images/beauty/tyre.webp"
+            alt="tyre"
+            class="beauty-images"
+          />
+          <div class="beauty-card-detail">
+            <p>Tyres</p>
+            <p>From Rs.799</p>
+            <p>Apollo, Ceat</p>
+          </div>
+        </div>
+        <div class="beauty-items">
+          <img
+            src="./images/beauty/teddy.webp"
+            alt="teddy"
+            class="beauty-images"
+          />
+          <div class="beauty-card-detail">
+            <p>Soft Toys</p>
+            <p>Up to 70% off</p>
+            <p>Stuffed Toys</p>
+          </div>
+        </div>
+        <div class="beauty-items">
+          <img
+            src="./images/beauty/coffee.webp"
+            alt="coffee"
+            class="beauty-images"
+          />
+          <div class="beauty-card-detail">
+            <p>Coffee Powder</p>
+            <p>Up to 80% off</p>
+            <p>Nescafe</p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <script src="./js/main.js"></script>
-    <!-- <script src="./bootstrap.min.js"></script> -->
-</body>
-
+  </body>
 </html>
